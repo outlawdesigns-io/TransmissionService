@@ -100,7 +100,8 @@ var mod = (function(){
     let results = [];
     lines = stdout.split("\n");
     for(var i = 1; i < (lines.length - 2); i++){
-      lines[i] += "  ";
+      //lines[i] += "  ";
+      lines[i] = " " + lines[i] + "  ";
       let matches = lines[i].match(_listPattern);
       if(matches){
         results.push({
