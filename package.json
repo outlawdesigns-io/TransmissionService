@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies":{
-    "autobahn":"7.5.3"
+  "dependencies": {
+    "autobahn": "^20.9.2"
   },
   "author": "",
   "license": "ISC"
