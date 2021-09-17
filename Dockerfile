@@ -1,4 +1,4 @@
-FROM node:carbon
+FROM node
 RUN apt-get update
 RUN apt-get install transmission-remote-cli -y
 WORKDIR /usr/src/app/
