@@ -1,6 +1,6 @@
 FROM node
 RUN apt-get update
-RUN apt-get install transmission-remote-cli -y
+RUN apt-get install transmission-cli -y
 WORKDIR /usr/src/app/
 ENV TZ=America/Chicago
 COPY . .
