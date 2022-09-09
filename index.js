@@ -4,7 +4,7 @@ const autobahn = require('autobahn');
 
 
 var connection = new autobahn.Connection({
-  url:'ws://api.outlawdesigns.io:9700/ws',
+  url:'wss://api.outlawdesigns.io:9700/ws',
   realm:'realm1'
 });
 
